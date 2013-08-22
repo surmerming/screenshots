@@ -1,0 +1,170 @@
+
+
+#airdroid_capture_mask{
+    border-radius: 0;
+    display: block;
+    position: absolute;
+    z-index:999;
+    margin: 0;
+    min-width: 1px;
+    overflow: hidden;
+}
+
+#airdroid_capture_mask div{
+    border-radius: 0;
+    margin: 0;
+    min-width: 1px;
+}
+
+#airdroid_capture_shadow_top{
+    left: 0;
+    top: 0;
+}
+
+#airdroid_capture_shadow_bottom{
+    right: 0;
+    bottom: 0;
+}
+
+#airdroid_capture_shadow_left{
+    left: 0;
+    bottom: 0;
+}
+
+#airdroid_capture_shadow_right{
+    top: 0;
+    right: 0;
+}
+
+#airdroid_capture_shadow_top,
+#airdroid_capture_shadow_bottom,
+#airdroid_capture_shadow_left,
+#airdroid_capture_shadow_right{
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+
+}
+
+#airdroid_capture_mask_area{
+    position: absolute;
+}
+
+#airdroid_capture_shadow_area{
+    border: 1px solid #1C68AF;
+    cursor: move;
+    position: absolute;
+}
+
+#airdroid_capture_shadow_size{
+    background-color: #1C68AF;
+    color: #ffffff;
+    height: 18px;
+    min-width: 65px!important;
+    left: 8px;
+
+    line-height: 18px;
+    position: absolute;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+}
+
+#airdroid_capture_shadow_cancel{
+    text-align: center;
+    right: 70px;
+    min-width: 30px!important;
+    padding: 5px 10px;
+}
+
+#airdroid_capture_shadow_sure{
+    text-align: center;
+    min-width: 30px!important;
+    padding: 5px 10px;
+    right: 8px;
+}
+
+#airdroid_capture_shadow_cancel,
+#airdroid_capture_shadow_sure{
+    background-color: #1C68AF;
+    cursor: pointer;
+    color: #ffffff;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    z-index: 999;
+}
+
+#airdroid_capture_shadow_middle_west{
+    
+
+}
+#airdroid_capture_shadow_middle_east{
+    
+}
+#airdroid_capture_shadow_middle_north{
+    
+}
+#airdroid_capture_shadow_middle_south{
+    
+}
+#airdroid_capture_shadow_north_west{
+    /*left: -1px;
+    top: -1px;*/
+    cursor: nw-resize;
+}
+#airdroid_capture_shadow_north_east{
+    /*right: -1px;
+    top: -1px;*/
+    cursor: ne-resize;
+}
+#airdroid_capture_shadow_south_west{
+    /*left: -1px;
+    bottom: -1px;*/
+    cursor: sw-resize;
+}
+#airdroid_capture_shadow_south_east{
+    /*right: -1px;
+    bottom: -1px;*/
+    cursor: se-resize;
+}
+
+#airdroid_capture_shadow_middle_west,
+#airdroid_capture_shadow_middle_east,
+#airdroid_capture_shadow_middle_north,
+#airdroid_capture_shadow_middle_south,
+#airdroid_capture_shadow_north_west,
+#airdroid_capture_shadow_north_east,
+#airdroid_capture_shadow_south_west,
+#airdroid_capture_shadow_south_east{
+    border: 1px solid #ffffff;
+    background-color: #1C68AF;
+    height: 5px;
+    position: absolute;
+    width: 5px;
+}
+
+/*#airdroid_capture_shadow_middle_west{
+
+}
+#airdroid_capture_shadow_middle_east{
+
+}
+#airdroid_capture_shadow_middle_north{
+
+}
+#airdroid_capture_shadow_middle_south{
+
+}
+#airdroid_capture_shadow_north_west{
+
+}
+#airdroid_capture_shadow_north_east{
+
+}
+#airdroid_capture_shadow_south_west{
+
+}
+#airdroid_capture_shadow_south_east{
+
+}*/

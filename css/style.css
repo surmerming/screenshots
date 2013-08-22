@@ -1,0 +1,49 @@
+*{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.class-btn{
+    padding:10px 20px 10px 20px;
+    background-color:#1C68AF;
+}
+.class-btn a{
+    color:#FFFFFF;
+}
+#btn-sure{
+    margin-left:20px;
+}
+#myCanvas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+p{
+    padding: 10px;
+}
+div#airdroid_capture_mask_capture{
+    cursor: pointer;
+}
+div#div-btn{
+    padding-top: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+img#preview{
+    margin-top: 20px;
+}
+
+#test_display{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-color: #fdfdfd;
+}
+

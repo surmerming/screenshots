@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Capture Screen</title>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/capture.css" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    <script type="text/javascript" src="js/screenshot.js"></script>
+    <!--<script type="text/javascript" src="js/backup.js"></script>-->
+    <script type="text/javascript" src="js/jquery.screenshot.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {            
+            AirDroid.Module.ScreenShot.initialize();
+            //$('#div-capture').screenshot();
+        });
+
+    </script>
+</head>
+<body>
+<input type="password" value="my name" />
+
+<ul>
+    <li>I love my girl,Qian</li>
+    <li>BMW</li>
+    <li>I fall in love at the first sight of you</li>
+    <li>I will always miss you so much</li>
+</ul>
+<p>
+    <img src="images/girl.jpg" />
+</p>
+<p id="test_display">欢迎来到天天向上</p>
+<div id="airdroid_capture_mask_capture">
+    <span class="class-btn" id="capture"><a href="#">截图</a></span>
+</div>
+<!--<div id="div-btn">
+    <span class="class-btn" id="btn-cancel"><a href="#">取消</a></span>
+	<span class="class-btn" id="btn-sure"><a href="#">确定</a></span>
+</div>-->
+</body>
+</html>
